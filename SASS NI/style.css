@@ -1,11 +1,18 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  background: #FAEBD7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .header {
-  background: #77C3EC;
-  color: #fff;
+  background: #3E577D;
+  color: #E5E5E5;
   padding: 15px;
   display: flex;
   justify-content: space-between;
@@ -13,7 +20,7 @@ body {
 }
 
 .header nav a {
-  color: #fff;
+  color: #E5E5E5;
   margin-left: 10px;
   text-decoration: none;
 }
@@ -29,15 +36,15 @@ body {
 }
 
 .hero {
-  background: #9DD9F3;
-  color: #fff;
+  background: #8FA7D2;
+  color: #E5E5E5;
   text-align: center;
   padding: 50px;
 }
 
 .hero button {
-  background: #77C3EC;
-  color: #fff;
+  background: #3E577D;
+  color: #E5E5E5;
   border: none;
   padding: 10px 20px;
   margin-top: 10px;
@@ -50,8 +57,8 @@ body {
 }
 
 .features .box {
-  background: #9DD9F3;
-  color: #fff;
+  background: #3E577D;
+  color: #E5E5E5;
   padding: 20px;
   flex: 1;
   text-align: center;
@@ -64,8 +71,10 @@ body {
 }
 
 .footer {
-  background: #77C3EC;
-  color: #fff;
+  background: #3E577D;
+  color: #E5E5E5;
   text-align: center;
-  padding: 10px;
+  border: none;
+  padding: 20px 20px;
+  margin-top: 250px;
 }
